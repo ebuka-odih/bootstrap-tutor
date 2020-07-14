@@ -49,7 +49,7 @@
            </form>
        </div>
         <div class="col-md-2">
-            <a href="" class="mr-2 btn btn-sm btn-outline-success">Login</a>
+            <a href="" class="mr-2 btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModal">Login</a>
             <a href="" class="btn btn-sm btn-outline-danger">Sign Up</a>
         </div>
     </div>
@@ -348,7 +348,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid">
+<div class="container-fluid mb-5">
     <div class="row row-cols-1 row-cols-md-2">
         <div class="col mb-4">
             <div class="card mb-3">
@@ -385,6 +385,72 @@
     </div>
 </div>
 
+<hr>
+<!--Footer side-->
+<div  style="background-color: #4d4b49" class="jumbotron jumbotron-fluid">
+    <div  class="container-fluid w-75 p-3">
+        <div  class="row">
+            <div class="col">
+                <h2 class="text-white">About Company</h2>
+                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consectetur consequatur eius, fuga ipsa molestiae nihil quo unde veritatis vero?</p>
+            </div>
+            <div class="col">
+                <h2 class="text-white">Quick Link</h2>
+                <div class="list-group">
+                    <button type="button" class="list-group-item list-group-item-action">About Us</button>
+                    <button type="button" class="list-group-item list-group-item-action">Contact Us</button>
+                    <button type="button" class="list-group-item list-group-item-action">Services</button>
+                </div>
+            </div>
+            <div class="col">
+                <h2 class="text-white">Contact Details</h2>
+                <p class="text-white">Head Office: Plot A family support</p>
+                <p class="text-white">Mail: dontcontactus@oursite.com</p>
+                <p class="text-white">Tel: 081784747477, 9048757473</p>
+            </div>
+            <div class="col">
+                <h2 class="text-white">Subscribe News Letter</h2>
+                <div class="input-group flex-nowrap">
+                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Username" aria-describedby="addon-wrapping">
+                    <div class="input-group-prepend">
+                        <a href="#" class="input-group-text btn btn-sm btn-primary" id="addon-wrapping">Submit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Password:</label>
+                        <input class="form-control" id="message-text" type="password">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script>
     $('.carousel').carousel({
