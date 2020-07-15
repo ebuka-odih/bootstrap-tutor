@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Home, Welcome to SleekFas!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
 <!--Navigation bar-->
@@ -19,39 +18,39 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       <div class="container-fluid">
-           <ul class="navbar-nav mr-auto">
-               <li class="nav-item active">
-                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-               </li>
+        <div class="container-fluid">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
 
-               <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                       Collections
-                   </a>
-                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                       <a class="dropdown-item" href="#">Trouser</a>
-                       <a class="dropdown-item" href="#"> Shirt</a>
-                       <a class="dropdown-item" href="#">Shoe</a>
-                   </div>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link " href="#">Contact Us</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link " href="#">About Us</a>
-               </li>
-               <li class="nav-item">
-                   <a class="nav-link " href="#">Blog</a>
-               </li>
-           </ul>
-           <form class="form-inline my-2 my-lg-0 col-5">
-               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-           </form>
-       </div>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Collections
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Trouser</a>
+                        <a class="dropdown-item" href="#"> Shirt</a>
+                        <a class="dropdown-item" href="#">Shoe</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Blog</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 col-5">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
         <div class="col-md-2">
             <a href="" class="mr-2 btn btn-sm btn-outline-success" data-toggle="modal" data-target="#exampleModal">Login</a>
-            <a href="" class="btn btn-sm btn-outline-danger" data-toggle="modal" data-target="#RegisterModal">Sign Up</a>
+            <a href="" class="btn btn-sm btn-outline-danger">Sign Up</a>
         </div>
     </div>
 </nav>
@@ -101,32 +100,24 @@
 <!--End of Carousel Slideshow-->
 
 <hr>
-<!--Notice Jumbontron-->
-
+<div class="container">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <h2 class="display-5 text-primary">Cheap Rate</h2>
-                    <i class="fa fa-money" style="font-size: 60px;"></i>
                 </div>
                 <div class="col-4">
-                    <h2 class="display-5 text-primary">Free Delivery</h2>
-                    <i style="font-size: 60px" class="fa fa-truck"></i>
-
+                    <h2 class="display-5 text-primary"> Free Delivery</h2>
                 </div>
                 <div class="col-sm">
-
                     <h2 class="display-5 text-primary"> 24/7 Support</h2>
-                    <i class="fa fa-clock-o" style="font-size: 60px"></i>
-
                 </div>
             </div>
         </div>
     </div>
-<!--end-->
+</div>
 <hr>
-
 <div class="container">
     <p class="text text-primary text-center display-5">Latest Products</p>
     <div  class="card-deck mb-4">
@@ -168,7 +159,7 @@
             </div>
         </div>
     </div>
-<!--Second card deck-->
+    <!--Second card deck-->
     <div  class="card-deck">
         <div class="card">
             <a href="#">
@@ -431,7 +422,7 @@
 </div>
 
 
-<!--Login model -->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -450,12 +441,8 @@
                     <div class="form-group">
                         <label for="message-text" class="col-form-label">Password:</label>
                         <input class="form-control" id="message-text" type="password">
-
                     </div>
-                    <p class="text-muted">Don't have an account?<a href="#" data-toggle="modal" data-target="#RegisterModal"> Sign Up</a> </p>
-
                 </form>
-
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -464,50 +451,12 @@
         </div>
     </div>
 </div>
-<!--End of login model-->
 
-<!--Register Model-->
-
-<div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel2">Sign Up</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Full Name</label>
-                        <input type="text" class="form-control" >
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
-                    </div>
-                    <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary">Sign Up</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
+<script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
